@@ -46,7 +46,6 @@ C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginReg.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Home\RegisterPartial.cshtml.g.cs
-C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Home\Success.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -61,3 +60,4 @@ C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Bank.dll
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Bank.pdb
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Bank.genruntimeconfig.cache
+C:\Users\todda\OneDrive\Documents\CodingDojo\C#\ORMs\Bank\obj\Debug\netcoreapp3.1\Razor\Views\Home\Dashboard.cshtml.g.cs

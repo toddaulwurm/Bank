@@ -47,7 +47,7 @@ namespace Bank.Controllers
                 HttpContext.Session.SetInt32("LoggedUserId", newUser.UserId);
 
 
-                return RedirectToAction("Success");
+                return RedirectToAction("dashboard");
             }
             return View("LoginReg");
         }
@@ -76,14 +76,13 @@ namespace Bank.Controllers
                 }
 
                 HttpContext.Session.SetInt32("LoggedUserId", userInDb.UserId);
-
-                return RedirectToAction("Success");
+                return RedirectToAction("dashboard");
             }
             return View("LoginReg");
         }
 
-        [HttpGet("success")]
-        public IActionResult Success()
+        [HttpGet("/dashboard")]
+        public IActionResult Dashboard()
         {
             int? loggedUserId = HttpContext.Session.GetInt32("LoggedUserId");
             if(loggedUserId==null) return RedirectToAction("Index");
@@ -111,7 +110,7 @@ namespace Bank.Controllers
                 {
                     Console.WriteLine(ViewBag.User.Balance + checkMe.Amount);
                     ModelState.AddModelError("Amount", "Not Enough Money!!!!");
-                    return View("Success");
+                    return View("Dashboard");
                 }
                 else
                 {
@@ -124,11 +123,11 @@ namespace Bank.Controllers
                     _context.Add(checkMe);
                     _context.SaveChanges();
 
-                    return RedirectToAction("Success");
+                    return RedirectToAction("dashboard");
                 }
                 
             }
-            return RedirectToAction("Success");
+            return RedirectToAction("dashboard");
         }
 
         [HttpGet("logout")]

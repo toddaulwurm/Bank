@@ -14417,13 +14417,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\todda\\OneDrive\\Documents\\CodingDojo\\C#\\ORMs\\Bank\\Views\\Home\\LoginPartial.cshtml",
-      "TargetPath": "Views\\Home\\LoginPartial.cshtml",
+      "FilePath": "c:\\Users\\todda\\OneDrive\\Documents\\CodingDojo\\C#\\ORMs\\Bank\\Views\\Home\\Dashboard.cshtml",
+      "TargetPath": "Views\\Home\\Dashboard.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\todda\\OneDrive\\Documents\\CodingDojo\\C#\\ORMs\\Bank\\Views\\Home\\Success.cshtml",
-      "TargetPath": "Views\\Home\\Success.cshtml",
+      "FilePath": "c:\\Users\\todda\\OneDrive\\Documents\\CodingDojo\\C#\\ORMs\\Bank\\Views\\Home\\LoginPartial.cshtml",
+      "TargetPath": "Views\\Home\\LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
