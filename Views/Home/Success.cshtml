@@ -1,0 +1,34 @@
+@using System.Text.RegularExpressions
+@{
+    ViewData["Title"] = "Register Page";
+}
+@model Transaction
+
+
+<a href="/logout" class="btn btn-dark">Logout</a>
+<h1>@ViewBag.User.FirstName is Logged In!</h1>
+<h2>You have @ViewBag.User.Balance.ToString("C") in your account</h2>
+
+
+<form asp-action="amount" asp-controller="Home" method="post">
+            <div class="form-group">
+                <input type="hidden" name="UserId" value="@ViewBag.User.UserId">
+                <label asp-for="Amount">Withdraw/Deposit</label>
+                <input pattern="^[+-]?[0-9]{1,3}(?:,?[0-9]{3})*\.[0-9]{2}$" type="number" asp-for="Amount" class="form-control">
+                <span class="alert-danger" asp-validation-for="Amount"></span>
+            </div> 
+            <input type="submit" class="btn btn-primary">
+        </form>
+
+@{
+    foreach(Transaction t in ViewBag.AllTransactrions)
+    {
+        if(t.Amount>0)
+        {
+            <h1>Deposit: @t.Amount.ToString("C")</h1>
+        }
+        else{
+            <h1>Withdrawl: - @t.Amount.ToString("C")</h1>
+        }
+    }
+}
